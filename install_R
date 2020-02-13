@@ -1,0 +1,5 @@
+#Download R from https://cran.r-project.org/
+sudo apt get ‘xorg-dev’
+./configure --enable-R-shlib=yes
+make
+sudo make install
